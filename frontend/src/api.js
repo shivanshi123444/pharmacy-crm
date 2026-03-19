@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'http://127.0.0.1:8000'
+  baseURL: 'https://pharmacy-crm-backend-kwdu.onrender.com'
 })
 
 export const getDashboardSummary = () => API.get('/api/dashboard/summary')
